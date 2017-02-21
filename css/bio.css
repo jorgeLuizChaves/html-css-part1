@@ -86,17 +86,20 @@ aside {
     right: 0;
 }
 
+.nav-page, .img-profile {
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+}
+
 .nav-page {
     position: relative;
     top: 310px;
     right: 0;
+
 }
 
 aside, img {
     float: right;
-    /*width: 20%;*/
-    border-bottom: 10px solid #000;
-    border-left: 10px solid #000;
 }
 
 aside {
