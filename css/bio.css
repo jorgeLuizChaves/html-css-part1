@@ -43,6 +43,10 @@ p {
     text-align: center;
     background-color: #000000;
     color: #F2FFFC;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 blockquote {
@@ -76,9 +80,21 @@ aside {
     text-align: center;
 }
 
+img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+aside {
+    position: relative;
+    top: 266px;
+    right: 0;
+}
+
 aside, img {
-    float: left;
-    width: 19%;
+    float: right;
+    width: 20%;
     border-bottom: 10px solid #000;
     border-left: 10px solid #000;
 }
@@ -135,6 +151,7 @@ article {
 main {
     float: left;
     width: 80%;
+    padding-bottom: 80px;
 }
 
 
