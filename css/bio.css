@@ -80,21 +80,21 @@ aside {
     text-align: center;
 }
 
-img {
+.img-profile {
     position: absolute;
     top: 0;
     right: 0;
 }
 
-aside {
+.nav-page {
     position: relative;
-    top: 266px;
+    top: 310px;
     right: 0;
 }
 
 aside, img {
     float: right;
-    width: 20%;
+    /*width: 20%;*/
     border-bottom: 10px solid #000;
     border-left: 10px solid #000;
 }
