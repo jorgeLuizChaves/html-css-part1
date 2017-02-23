@@ -2,6 +2,11 @@ body {
     font-family: sans-serif;
     background-color: #F2FFFC;
     line-height: 1.5;
+
+}
+
+.main-title, .sub-title {
+    font-family: "Open Sans Condensed", Arial;
 }
 
 h1, h2 {
@@ -9,8 +14,11 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 60px;
-    text-transform: capitalize;
+    /*font-size: 60px;*/
+    /*text-transform: capitalize;*/
+    font-size: 300%;
+    padding: 2rem;
+    border-bottom: .5rem solid #000;
 }
 
 h2 {
