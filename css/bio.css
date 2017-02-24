@@ -2,147 +2,28 @@ body {
     font-family: sans-serif;
     background-color: #F2FFFC;
     line-height: 1.5;
-
-}
-
-.main-title, .sub-title {
-    font-family: "Open Sans Condensed", Arial;
+    font-size: 100%;
 }
 
 h1, h2 {
     font-family: "Open Sans Condensed", Arial;
 }
 
-h1 {
-    /*font-size: 60px;*/
-    /*text-transform: capitalize;*/
-    font-size: 300%;
-    padding: 2rem;
-    border-bottom: .5rem solid #000;
-}
-
-h2 {
-    font-size: 30px;
-    clear: both;
-}
-
-main h1 {
-    background-color: #851944;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 25px;
-    border-bottom: 10px solid #000000;
-}
-
 main div {
     width: 720px;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px 0;
+    padding: 1.5rem 0;
 }
 
-p {
+p{
     font-family: "Crimson Text";
     text-align: justify;
-    padding: 20px 0;
-}
-
-.footer {
-    text-align: center;
-    background-color: #000000;
-    color: #F2FFFC;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-blockquote {
-    background-color: #D9E5E3;
-    border: 20px solid #C2CCCA;
-    margin: 20px 40px;
-    width: 250px;
-    box-sizing: border-box;
-}
-
-blockquote cite {
-    float: right;
-    font-style: italic;
-}
-
-.fiat-blockquote {
-    float: right;
-}
-
-.bmw-blockquote {
-    float: left;
+    padding: 1.5rem 0;
 }
 
 blockquote, aside, footer {
-    padding: 20px;
-}
-
-aside {
-    background-color: #3C1D3D;
-    color:  #F2FFFC;
-    text-align: center;
-}
-
-.img-profile {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.nav-page, .img-profile {
-    border-bottom: 10px solid #000;
-    border-left: 10px solid #000;
-}
-
-.nav-page {
-    position: relative;
-    top: 310px;
-    right: 0;
-
-}
-
-aside, img {
-    float: right;
-}
-
-aside {
-}
-
-footer {
-    clear: both;
-}
-
-aside {
-    text-transform: lowercase;
-    box-sizing: border-box;
-}
-
-aside a {
-    color: inherit;
-    text-decoration: none;
-
-}
-
-aside h1 {
-    font-size: 30px;
-    margin-bottom: 25px;  }
-
-.social li {
-    display: inline-block;
-
-}
-
-.social li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    text-indent: -9999px;
-    /*font-size: 0;*/
+    padding: 1.5rem;
 }
 
 strong {
@@ -166,6 +47,109 @@ main {
     padding-bottom: 80px;
 }
 
+.main-title, .sub-title {
+    font-family: "Open Sans Condensed", Arial;
+}
+
+.main-title {
+    text-transform: capitalize;
+    font-size: 4rem;
+    padding: 2rem;
+    border-bottom: 0.5rem solid #000;
+    background-color: #851944;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 2em;
+    clear: both;
+}
+
+.footer {
+    text-align: center;
+    background-color: #000000;
+    color: #F2FFFC;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.comment {
+    background-color: #D9E5E3;
+    border: 1em solid #C2CCCA;
+    margin: 1em 2em;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.comment cite {
+    float: right;
+    font-style: italic;
+}
+
+.fiat-blockquote {
+    float: right;
+}
+
+.bmw-blockquote {
+    float: left;
+}
+
+.menu {
+    background-color: #3C1D3D;
+    color:  #F2FFFC;
+    text-align: center;
+    text-transform: lowercase;
+    box-sizing: border-box;
+    float: right;
+}
+
+.img-profile {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav-page, .img-profile {
+    border-bottom: 10px solid #000;
+    border-left: 10px solid #000;
+}
+
+.nav-page {
+    position: relative;
+    top: 310px;
+    right: 0;
+
+}
+
+.footer {
+    clear: both;
+}
+
+.menu a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.menu h1 {
+    font-size: 30px;
+    margin-bottom: 25px;  }
+
+.social li {
+    display: inline-block;
+
+}
+
+.social li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    /*font-size: 0;*/
+}
 
 .readMore {
     padding: 8px;
@@ -188,4 +172,28 @@ main {
 
 .twitter-icon {
     background-image: url("../img/twitter.png");
+}
+
+.portfolio {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    font-size: 2em;
+}
+
+.portfolio img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.portfolio figcaption {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 1em;
 }
