@@ -15,15 +15,38 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <main >
-            <div style="background-color: #851944; text-align: center; padding: 1em; border-bottom: 0.5em #000000 solid">
-                <img src="img/eu.jpg" style="width: 150px; height: 150px; " alt="">
-                <h1 style="font-size: 2em; color: white">João da Silva</h1>
-                <span style="color: white">Desenvolvedor Web</span>
+        <main>
+            <div class="header">
+                <img src="img/eu.jpg"  alt="">
+                <h1>João da Silva</h1>
+                <span>Desenvolvedor Web</span>
             </div>
-            <div style="text-align: center">
-                <p>Olá, meu nome é João da Silva</p>
-                <p style="text-indent: 60px">e eu construo sites maravilhosos.</p>
+            <div class="main-content">
+                <p class="p1"><span class="hello">Olá</span>, meu nome é <span class="my-name">João da Silva</span></p>
+                <p class="p2">e eu construo <span class="job-desc">sites maravilhosos.</span></p>
+                <a href="#">Conheça mais um pouco sobre mim</a>
+            </div>
+            <div class="jobs-session">
+                <h1>Trabalhos</h1>
+                <div>
+                    <img src="img/eu.jpg" alt="">
+                    <img src="img/eu.jpg" alt="">
+                    <img src="img/eu.jpg" alt="">
+                </div>
+
+                <a href="" style="display: inline-block; color: #FFFFFF; font-size: 1rem; background-color: #851944; padding: 10px; border: 0.5rem #000 solid; width: 400px;">veja mais</a>
+            </div>
+            <div id="blog" class="blog-session">
+                <h1>Blog</h1>
+                <span>últimos posts</span>
+
+                <ul>
+                    <li><a href="#">O essencial de design responsivo</a></li>
+                    <li><a href="#">Por que fazer páginas acessíveis</a></li>
+                    <li><a href="#">Javascript não obstrusivo</a></li>
+                </ul>
+
+                <a href="#" class="custom-link">Veja mais</a>
             </div>
 
         </main>
