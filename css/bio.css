@@ -215,6 +215,7 @@ article {
 }
 
 .header {
+    position: relative;
     background-color: #851944;
     text-align: center;
     padding: 1em;
@@ -305,6 +306,7 @@ article {
 }
 
 .blog-session {
+    position: relative;
     background-color: #999999;
     color: #FFFFFF;
     text-align: center;
@@ -336,3 +338,95 @@ article {
     width: 400px;
 }
 
+.inicio-post {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin-top: 3em;
+    margin-right: 20px;
+    font-size: 1em;
+    padding: 50px 10px;
+    width: 800px;
+    height: 100px;
+}
+
+.palavra-home {
+    color: #D5447E;
+    font-family: "Shadows Into Light";
+}
+
+.eficiencia {
+    position: absolute;
+    top: 50%;
+    left: 65%;
+}
+
+.boas-praticas {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+
+.codigo-limpo {
+    position: absolute;
+    top: 25%;
+    left: 23%;
+}
+
+.css3 {
+    position: absolute;
+    top: 39%;
+    right: 20%;
+}
+
+.javascript {
+    position: absolute;
+    top: 20%;
+    right: 22%;
+}
+
+.html5 {
+    position: absolute;
+    top: 18%;
+    right: 30%;
+}
+
+.acessibilidade {
+    position: absolute;
+    top: 18%;
+    left: 30%;
+}
+
+.responsivo {
+    position: absolute;
+    top: 37%;
+    left: 35%;
+}
+
+
+.otimizacoes {
+    position: absolute;
+    top: 29%;
+    right: 33%;
+}
+
+.agilidade {
+    position: absolute;
+    top: 28%;
+    left: 35%;
+}
+
+.design {
+    position: absolute;
+    top: 13%;
+    left: 37%;
+}
+
+.post-selected {
+    display: inline-block;
+    background-color: white;
+    padding: 10px;
+    width: 400px;
+}
